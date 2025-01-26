@@ -1,5 +1,37 @@
-.test{
-    text-align: center;
-    color: red;
-    font-size: 24px;
+* {
+    border: solid;
+}
+main {
+    display: flex;
+    justify-content: center;
+    border: solid;
+}
+
+.calc{
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    
+}
+
+.keypad{
+    display: flex;
+    flex-wrap: wrap;
+    height: 240px;
+}
+
+.output{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px
+}
+
+.keypad button{
+    flex: 1 0 25%;
+    
+}
+
+.result{
+    font-size: 38px;
+    align-content: center;
 }
